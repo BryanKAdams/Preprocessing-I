@@ -29,6 +29,9 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+@maincolor: whitesmoke;
+@bordercolor: lightgray;
+@accentcolor: gray;
 body {
 	line-height: 1;
 	font-family: 'Indie Flower', cursive;
@@ -110,7 +113,7 @@ li{
 		text-decoration: none;
 		color: black;
 		@media( max-width: 500px ) {
-			border-bottom: 1px solid gray;
+			border-bottom: 1px solid @accentcolor;
 			text-align: center;
 			font-size: 4rem;
 		  }
@@ -124,7 +127,7 @@ li{
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	background-color: WHITESMOKE;
+	background-color: @maincolor;
 	padding: 0px 20px;
 	padding-bottom: 50px;
 	border-radius: 1%;
@@ -147,7 +150,7 @@ li{
 }
 
 .linebreak{
-	border-bottom: .25rem solid lightgray;
+	border-bottom: .25rem solid @bordercolor;
 	opacity: .8;
 	h1{
 		padding-bottom: 20px;
@@ -171,11 +174,11 @@ li{
 		}
 	}
 	ul{
-		border: 1px solid lightgray;
+		border: 1px solid @bordercolor;
 		border-radius: 2%;
 	}
 	li{
-		border-bottom: 1px solid lightgray;
+		border-bottom: 1px solid @bordercolor;
 		padding: 15px;
 	}
 }
@@ -193,7 +196,7 @@ li{
 .whiterow{
 	display: flex;
 	justify-content: space-between;	
-	border-top: 1px solid lightgray;
+	border-top: 1px solid @bordercolor;
 	padding: 20px;
 	p{
 		width: 25%;
@@ -216,8 +219,8 @@ li{
 .bluerow{
 	display: flex;
 	justify-content: space-between;	
-	background-color: WHITESMOKE;
-	border-top: 1px solid lightgray;
+	background-color: @maincolor;
+	border-top: 1px solid @bordercolor;
 	padding: 20px;
 	p{
 		width: 25%;
@@ -241,15 +244,15 @@ li{
 .btn{
 	text-decoration: none;
 	color: white;
-	border: 1px solid gray;
-	background-color: GRAY;
+	border: 1px solid @accentcolor;
+	background-color: @accentcolor;
 	padding: 5px;
 }
 .footer{
 	display: flex;
 	justify-content: center;
 	color: white;
-	background-color: gray;
+	background-color: @accentcolor;
 	padding: 20px;
 	margin-top: 20px;
 }

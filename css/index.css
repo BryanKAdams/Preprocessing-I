@@ -204,7 +204,7 @@ li {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background-color: WHITESMOKE;
+  background-color: whitesmoke;
   padding: 0px 20px;
   padding-bottom: 50px;
   border-radius: 1%;
@@ -297,7 +297,7 @@ li {
 .bluerow {
   display: flex;
   justify-content: space-between;
-  background-color: WHITESMOKE;
+  background-color: whitesmoke;
   border-top: 1px solid lightgray;
   padding: 20px;
 }
@@ -325,7 +325,7 @@ li {
   text-decoration: none;
   color: white;
   border: 1px solid gray;
-  background-color: GRAY;
+  background-color: gray;
   padding: 5px;
 }
 .footer {
