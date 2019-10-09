@@ -286,10 +286,12 @@ li {
     padding: 0px;
   }
   .whiterow h6 {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
+    width: 100%;
   }
   .whiterow p {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
+    width: 100%;
   }
 }
 .bluerow {
@@ -311,10 +313,12 @@ li {
     padding: 0px;
   }
   .bluerow h6 {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
+    width: 100%;
   }
   .bluerow p {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
+    width: 100%;
   }
 }
 .btn {
