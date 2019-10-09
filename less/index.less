@@ -31,6 +31,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	font-family: 'Indie Flower', cursive;
 }
 ol, ul {
 	list-style: none;
@@ -52,8 +53,199 @@ table {
 * {
     box-sizing: border-box;
 }
-
+html{
+	font-size: 62.5%;
+}
 html, body {
     height: 100%;
 }
+// This is where I'm starting my code
+.sectionPadding(){
+	padding: 3% 3%
+}
+// General sizing
+ h1{
+	font-size: 8rem;
+	font-weight: bold;
+}
+h2{
+	font-size: 4rem;
+	font-weight: bold;
+}
+h3{
+	font-size: 3rem;
+	font-weight: bold;
+}
+h6{
+	font-size: 2rem;
+	font-weight: bold;
+}
+ p{
+	font-size: 2rem;
+}
+ a{
+	font-size: 2rem;
+}
+li{
+	font-size: 2rem;
+}
+.container{
+	width: 100%;
+}
+.navSection{
+	display: flex;
+	justify-content: flex-end;
+	padding: 1%;
+	font-size: 2rem;
+	margin-bottom: 20px;
+	@media( max-width: 500px ) {
+		justify-content:  center;
+	  }
+}
+.navflex{
+	display: flex;
+	justify-content: space-between;
+	width: 60%;
+	a{
+		text-decoration: none;
+		color: black;
+		@media( max-width: 500px ) {
+			border-bottom: 1px solid gray;
+			text-align: center;
+			font-size: 4rem;
+		  }
+	}
+	@media( max-width: 500px ) {
+		flex-direction: column;
+		width: 100%;
+	  }
+}
+#About{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	background-color: WHITESMOKE;
+	padding: 0px 20px;
+	padding-bottom: 50px;
+	border-radius: 1%;
+	div{
+		margin: 20px 0px 0px 0px;
+	}
+	@media( max-width: 500px ) {
+		img{
+			text-align: center;
+		}
+	  }
+}
+.me{
+	img{
+	width: 40%;
+	}
+	@media( max-width: 500px ) {
+		text-align: center;
+	  }
+}
 
+.linebreak{
+	border-bottom: .25rem solid lightgray;
+	opacity: .8;
+	h1{
+		padding-bottom: 20px;
+	}
+	p{
+		padding-bottom: 20px;
+	}
+	@media( max-width: 500px ) {
+		text-align: center;
+	  }
+}
+.midsection{
+	display: flex;
+	justify-content: space-between;
+	padding: 3% 0%;
+	.text{
+		width: 48%;
+		padding: 20px;
+		h2{
+			margin-bottom: 20px;
+		}
+	}
+	ul{
+		border: 1px solid lightgray;
+		border-radius: 2%;
+	}
+	li{
+		border-bottom: 1px solid lightgray;
+		padding: 15px;
+	}
+}
+.botsection{
+	h3{ margin: 0px 20px;
+	}
+}
+.workhistory{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 20px;
+	
+}
+.whiterow{
+	display: flex;
+	justify-content: space-between;	
+	border-top: 1px solid lightgray;
+	padding: 20px;
+	p{
+		width: 25%;
+	}
+	h6{
+		width: 25%;
+	}
+	@media( max-width: 500px ) {
+		h6{
+			font-size: 1.2rem;
+		}
+		p{
+			font-size: 1.2rem;
+		}
+		padding: 0px;
+	  }
+	}
+.bluerow{
+	display: flex;
+	justify-content: space-between;	
+	background-color: WHITESMOKE;
+	border-top: 1px solid lightgray;
+	padding: 20px;
+	p{
+		width: 25%;
+	}
+	h6{
+		width: 25%;
+		font-weight: bold;
+	}
+	@media( max-width: 500px ) {
+		h6{
+			font-size: 1.2rem;
+		}
+		p{
+			font-size: 1.2rem;
+		}
+		padding: 0px;
+	  }
+}
+.btn{
+	text-decoration: none;
+	color: white;
+	border: 1px solid gray;
+	background-color: GRAY;
+	padding: 5px;
+}
+.footer{
+	display: flex;
+	justify-content: center;
+	color: white;
+	background-color: gray;
+	padding: 20px;
+	margin-top: 20px;
+}
