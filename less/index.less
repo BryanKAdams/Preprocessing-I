@@ -32,6 +32,10 @@ footer, header, hgroup, menu, nav, section {
 @maincolor: whitesmoke;
 @bordercolor: lightgray;
 @accentcolor: gray;
+.padding(){
+	padding: 20px
+}
+}
 body {
 	line-height: 1;
 	font-family: 'Indie Flower', cursive;
@@ -168,7 +172,7 @@ li{
 	padding: 3% 0%;
 	.text{
 		width: 48%;
-		padding: 20px;
+		.padding;
 		h2{
 			margin-bottom: 20px;
 		}
@@ -190,14 +194,14 @@ li{
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	padding: 20px;
+	.padding;
 	
 }
 .whiterow{
 	display: flex;
 	justify-content: space-between;	
 	border-top: 1px solid @bordercolor;
-	padding: 20px;
+	.padding;
 	p{
 		width: 25%;
 	}
@@ -221,7 +225,7 @@ li{
 	justify-content: space-between;	
 	background-color: @maincolor;
 	border-top: 1px solid @bordercolor;
-	padding: 20px;
+	.padding;
 	p{
 		width: 25%;
 	}
@@ -253,7 +257,7 @@ li{
 	justify-content: center;
 	color: white;
 	background-color: @accentcolor;
-	padding: 20px;
+	.padding;
 	margin-top: 20px;
 }
 article{
